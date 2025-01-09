@@ -1,7 +1,8 @@
 ## Hi there 👋
 
 <img alt="intellij_pycharm_macos_bigsur_icon_190055" src="https://github.com/user-attachments/assets/cab96eb6-3d3a-48b3-9fe5-323df0c2e4f4" />
-![intellij_clion_macos_bigsur_icon_190059](https://github.com/user-attachments/assets/d6d49115-ea95-48de-98b1-a88f32b934cb)
+<img alt="intellij_pycharm_macos_bigsur_icon_190055" src="https://github.com/user-attachments/assets/d6d49115-ea95-48de-98b1-a88f32b934cb" />
+
 
 
 <!--
