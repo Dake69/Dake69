@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Dake69 / From an idea to a working project.</title>
+  <defs><linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#7AE8C9"/><stop offset=".55" stop-color="#7983F5"/><stop offset="1" stop-color="#223343"/></linearGradient></defs>
+  <path d="M1 1H1199" stroke="url(#line)"/>
+  <text x="2" y="49" fill="#8297AB" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2">DAKE69 / FROM AN IDEA TO A WORKING PROJECT.</text>
+  <path d="M1167 35L1155 47L1167 59M1183 35L1195 47L1183 59" stroke="#7AE8C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

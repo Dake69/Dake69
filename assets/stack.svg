@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="208" viewBox="0 0 1200 208" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Technology stack</title>
+  <desc id="desc">Languages: Python, TypeScript, C#. Frameworks: aiogram, Django, React. Data and modding: MongoDB, SMAPI.</desc>
+  <rect x="1" y="1" width="1198" height="206" rx="18" fill="#0C1420" stroke="#223343"/>
+  <path d="M400 34V174M800 34V174" stroke="#223343"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#8297AB">
+    <text x="34" y="44">01 / LANGUAGES</text><text x="434" y="44">02 / FRAMEWORKS</text><text x="834" y="44">03 / DATA + MODDING</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" fill="#E4EDF5">
+    <circle cx="40" cy="83" r="5" fill="#F3D16B"/><text x="58" y="90">Python</text>
+    <circle cx="40" cy="125" r="5" fill="#64B6F7"/><text x="58" y="132">TypeScript</text>
+    <circle cx="40" cy="167" r="5" fill="#B3A0F7"/><text x="58" y="174">C#</text>
+    <circle cx="440" cy="83" r="5" fill="#74D6F7"/><text x="458" y="90">aiogram</text>
+    <circle cx="440" cy="125" r="5" fill="#85D7AC"/><text x="458" y="132">Django</text>
+    <circle cx="440" cy="167" r="5" fill="#88E4F7"/><text x="458" y="174">React</text>
+    <circle cx="840" cy="83" r="5" fill="#8EDB97"/><text x="858" y="90">MongoDB</text>
+    <circle cx="840" cy="125" r="5" fill="#E8BC86"/><text x="858" y="132">SMAPI</text>
+  </g>
+  <text x="834" y="174" fill="#8297AB" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">Stardew Valley modding</text>
+</svg>

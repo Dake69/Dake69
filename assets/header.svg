@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Dake69 — Yaroslav</title>
+  <desc id="desc">A dark developer banner with turquoise typography and an orbital monogram. Python, web and game modding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#0C1722"/><stop offset=".55" stop-color="#0A101B"/><stop offset="1" stop-color="#111A2C"/></linearGradient>
+    <linearGradient id="accent" x1="65" y1="180" x2="650" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#F1FFFC"/><stop offset=".55" stop-color="#8EF4D5"/><stop offset="1" stop-color="#52C7E8"/></linearGradient>
+    <linearGradient id="orbit" x1="-150" y1="-120" x2="150" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#77EAC9"/><stop offset="1" stop-color="#7983F5"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#36C8AD" stop-opacity=".12"/><stop offset="1" stop-color="#36C8AD" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#94B8CE" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="478" rx="24" fill="url(#bg)" stroke="#223343"/>
+  <rect x="1" y="1" width="1198" height="478" rx="24" fill="url(#grid)"/>
+  <ellipse cx="960" cy="240" rx="285" ry="235" fill="url(#glow)"/>
+  <path d="M64 62H110" stroke="#7AE8C9" stroke-width="3" stroke-linecap="round"/>
+  <text x="126" y="67" fill="#9DB2C4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3">YAROSLAV / DEVELOPER</text>
+  <text x="60" y="228" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="124" font-weight="800" letter-spacing="-7">DAKE69<tspan fill="#7AE8C9">.</tspan></text>
+  <text x="66" y="283" fill="#DFEAF3" font-family="Arial, Helvetica, sans-serif" font-size="25">Turning ideas into things you can run.</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1">
+    <rect x="66" y="319" width="100" height="34" rx="17" fill="#102A2B" stroke="#24534B"/><text x="86" y="341" fill="#8CF0D1">PYTHON</text>
+    <rect x="178" y="319" width="76" height="34" rx="17" fill="#102332" stroke="#244354"/><text x="201" y="341" fill="#8AD9F6">WEB</text>
+    <rect x="266" y="319" width="166" height="34" rx="17" fill="#211F37" stroke="#403A60"/><text x="287" y="341" fill="#C1B6FF">GAME MODDING</text>
+  </g>
+  <g transform="translate(954 228)">
+    <circle r="147" stroke="#28414D" stroke-dasharray="2 10"/>
+    <circle r="117" stroke="#203440"/>
+    <ellipse rx="169" ry="63" transform="rotate(-40)" stroke="url(#orbit)" stroke-width="1.5"/>
+    <ellipse rx="169" ry="63" transform="rotate(40)" stroke="url(#orbit)" stroke-opacity=".35"/>
+    <rect x="-77" y="-77" width="154" height="154" rx="38" transform="rotate(-10)" fill="#0E1D29" stroke="#335664"/>
+    <path d="M-34-28L-60 0L-34 28M34-28L60 0L34 28M12-41L-12 41" stroke="url(#orbit)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="129" cy="-105" r="6" fill="#8AF0D3"/>
+    <circle cx="-129" cy="105" r="4" fill="#A99BFF"/>
+    <path d="M-5-176H5M0-181V-171M146 132H156M151 127V137" stroke="#557B89" stroke-width="1.5"/>
+  </g>
+  <path d="M66 391H1134" stroke="#223241"/>
+  <circle cx="72" cy="429" r="4" fill="#7AE8C9"/>
+  <text x="88" y="434" fill="#849DAD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">~/Dake69</text>
+  <text x="1134" y="434" text-anchor="end" fill="#849DAD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">BOTS / WEB / MODS</text>
+</svg>
