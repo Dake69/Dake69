@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="40"
+     viewBox="0 0 1280 40" role="img"
+     aria-labelledby="dw-divider-title dw-divider-desc">
+  <title id="dw-divider-title">Digital Workshop section divider</title>
+  <desc id="dw-divider-desc">A thin horizontal line passes through
+    an angular module with a detached red diamond.</desc>
+  <path d="M0 20H592 M682 20H1280"
+        fill="none" stroke="#8B949E" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M592 20H612 M672 20H682"
+        fill="none" stroke="#30363D" stroke-width="2"/>
+  <path d="M612 8H632L644 20L632 32H612"
+        fill="none" stroke="#8B949E" stroke-width="3"/>
+  <path d="M658 10L668 20L658 30L648 20Z"
+        fill="#FF4D57" stroke="#30363D" stroke-width="2"/>
+</svg>

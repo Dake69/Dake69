@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360"
+     viewBox="0 0 1280 360" role="img"
+     aria-labelledby="dw-hero-title dw-hero-desc">
+  <title id="dw-hero-title">Dake69 / Digital Workshop</title>
+  <desc id="dw-hero-desc">Yaroslav's digital workshop. Build tools. Explore code.
+    A red angular D assembles from four modules, followed by one connector
+    trace. The short animation plays once and respects reduced motion.</desc>
+  <style>
+    .dw-hero-type {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+                   "Liberation Mono", "Courier New", monospace;
+    }
+    .dw-hero-note { fill: #8B949E; font-size: 12px; letter-spacing: 1.5px; }
+    .dw-hero-module { stroke: #30363D; stroke-width: 6; stroke-linejoin: miter; }
+    .dw-hero-trace { opacity: 0; stroke-dasharray: 126; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .dw-hero-spine {
+        animation: dw-hero-seat-left 1s cubic-bezier(.22,1,.36,1) .1s 1 both;
+      }
+      .dw-hero-upper {
+        animation: dw-hero-seat-upper 1.1s cubic-bezier(.22,1,.36,1) .25s 1 both;
+      }
+      .dw-hero-lower {
+        animation: dw-hero-seat-lower 1.1s cubic-bezier(.22,1,.36,1) .4s 1 both;
+      }
+      .dw-hero-diamond {
+        animation: dw-hero-seat-right .8s cubic-bezier(.22,1,.36,1) .85s 1 both;
+      }
+      .dw-hero-trace {
+        animation: dw-hero-connect 1.4s ease-in-out 1.6s 1 both;
+      }
+    }
+    @keyframes dw-hero-seat-left {
+      from { transform: translate(-14px, 0); opacity: .25; }
+      to { transform: translate(0, 0); opacity: 1; }
+    }
+    @keyframes dw-hero-seat-upper {
+      from { transform: translate(12px, -10px); opacity: .25; }
+      to { transform: translate(0, 0); opacity: 1; }
+    }
+    @keyframes dw-hero-seat-lower {
+      from { transform: translate(12px, 10px); opacity: .25; }
+      to { transform: translate(0, 0); opacity: 1; }
+    }
+    @keyframes dw-hero-seat-right {
+      from { transform: translate(14px, 0); opacity: 0; }
+      to { transform: translate(0, 0); opacity: 1; }
+    }
+    @keyframes dw-hero-connect {
+      0% { stroke-dashoffset: 126; opacity: 0; }
+      12% { opacity: 1; }
+      70% { stroke-dashoffset: 0; opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="1278" height="358" rx="20"
+        fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <path d="M800 48V312" fill="none" stroke="#30363D"/>
+
+  <!-- The drafting grid belongs to the assembly area. -->
+  <rect x="824" y="24" width="432" height="312" rx="8" fill="#161B22"/>
+  <path d="M832 56H1248 M832 88H1248 M832 120H1248 M832 152H1248
+           M832 184H1248 M832 216H1248 M832 248H1248 M832 280H1248
+           M832 312H1248 M856 32V328 M888 32V328 M920 32V328
+           M952 32V328 M984 32V328 M1016 32V328 M1048 32V328
+           M1080 32V328 M1112 32V328 M1144 32V328 M1176 32V328
+           M1208 32V328 M1240 32V328"
+        fill="none" stroke="#30363D" stroke-opacity="0.48"/>
+  <path d="M832 180H1248 M1044 48V312"
+        fill="none" stroke="#8B949E" stroke-opacity="0.28"
+        stroke-dasharray="4 8"/>
+  <path d="M904 48H884V68 M1184 48H1204V68
+           M884 292V312H904 M1204 292V312H1184"
+        fill="none" stroke="#8B949E" stroke-width="2"/>
+
+  <!-- Each connector terminates at a module or a visible node. -->
+  <path d="M844 180H900 M1184 180H1224V244H1202"
+        fill="none" stroke="#8B949E" stroke-width="2"/>
+  <path class="dw-hero-trace" d="M1184 180H1224V244H1202"
+        fill="none" stroke="#FF4D57" stroke-width="3" opacity="0"/>
+  <circle cx="840" cy="180" r="4" fill="#FF4D57"/>
+  <circle cx="1198" cy="244" r="4" fill="#161B22"
+          stroke="#FF4D57" stroke-width="2"/>
+
+  <g class="dw-hero-type">
+    <rect x="56" y="36" width="10" height="10" fill="#FF4D57"/>
+    <text x="84" y="48" fill="#8B949E" font-size="20"
+          letter-spacing="2">DIGITAL WORKSHOP</text>
+    <text id="dw-hero-handle" x="52" y="174" fill="#E6EDF3"
+          font-size="128" font-weight="700" letter-spacing="-5">Dake69</text>
+    <text id="dw-hero-name" x="56" y="225" fill="#8B949E"
+          font-size="40">Yaroslav</text>
+    <text id="dw-hero-tagline" x="56" y="290" fill="#E6EDF3"
+          font-size="40" letter-spacing="-1">Build tools. Explore code.</text>
+    <text x="884" y="37" class="dw-hero-note">ASSEMBLY / D</text>
+    <text x="944" y="334" class="dw-hero-note">01 / MODULAR FORM</text>
+  </g>
+
+  <!-- Original four-piece D / code-bracket mark. -->
+  <g transform="translate(884 20) scale(1.25)" class="dw-hero-module">
+    <path class="dw-hero-spine"
+          d="M48 40H88V96L56 128L88 160V216H48V160L16 128L48 96Z"
+          fill="#E6EDF3"/>
+    <path class="dw-hero-upper"
+          d="M104 40H148L200 92L172 120L132 80H104Z" fill="#FF4D57"/>
+    <path class="dw-hero-lower"
+          d="M172 136L200 164L148 216H104V176H132Z" fill="#FF4D57"/>
+    <path class="dw-hero-diamond"
+          d="M216 108L236 128L216 148L196 128Z" fill="#FF4D57"/>
+  </g>
+</svg>

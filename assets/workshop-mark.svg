@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"
+     viewBox="0 0 256 256" role="img"
+     aria-labelledby="dw-mark-title dw-mark-desc">
+  <title id="dw-mark-title">Dake69 modular workshop mark</title>
+  <desc id="dw-mark-desc">An original angular D assembled from four pieces.
+    Its left spine forms an opening code bracket; two red arms and
+    a detached diamond form the closing bracket. Transparent background.</desc>
+  <g stroke="#30363D" stroke-width="6" stroke-linejoin="miter">
+    <path d="M48 40H88V96L56 128L88 160V216H48V160L16 128L48 96Z"
+          fill="#E6EDF3"/>
+    <path d="M104 40H148L200 92L172 120L132 80H104Z" fill="#FF4D57"/>
+    <path d="M172 136L200 164L148 216H104V176H132Z" fill="#FF4D57"/>
+    <path d="M216 108L236 128L216 148L196 128Z" fill="#FF4D57"/>
+  </g>
+</svg>
